@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars">
+    <dxr:RibbonPageCategory x:Key="Category" Caption="Category 2">
+        <dxr:RibbonPage Caption="Page 3">
+            <dxr:RibbonPageGroup Caption="Page group 3">
+                <dxb:BarButtonItemLink BarItemName="itmButton" RibbonStyle="All" />
+                <dxb:BarButtonItemLink BarItemName="itmSplitButton" RibbonStyle="All" />
+                <dxb:BarButtonItemLink BarItemName="itmSplitButton1" RibbonStyle="All" />
+                <dxb:BarButtonItemLink BarItemName="itmButton1" RibbonStyle="All" />
+            </dxr:RibbonPageGroup>
+        </dxr:RibbonPage>
+    </dxr:RibbonPageCategory>
+</ResourceDictionary>

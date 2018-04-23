@@ -1,0 +1,21 @@
+﻿<dxr:DXRibbonWindow x:Class="RibbonFromXaml.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" Title="MainWindow" Height="350" Width="525">
+    <dxb:BarManager>
+        <dxb:BarManager.Items>
+            <dxb:BarButtonItem x:Name="itmButton" Content="Button 1" />
+            <dxb:BarSplitButtonItem x:Name="itmSplitButton" Content="Split button" ActAsDropDown="True" />
+            <dxb:BarButtonItem x:Name="itmButton1" Content="Button 2" />
+            <dxb:BarSplitButtonItem x:Name="itmSplitButton1" Content="Split button 1" ActAsDropDown="True" />
+        </dxb:BarManager.Items>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />                
+            </Grid.RowDefinitions>
+            <dxr:RibbonControl x:Name="ctrlRibbon" Grid.Row="0">
+                    
+            </dxr:RibbonControl>
+            <Button HorizontalAlignment="Center" VerticalAlignment="Center" Content="Build" Grid.Row="1" Click="Button_Click" />
+        </Grid>
+    </dxb:BarManager>
+</dxr:DXRibbonWindow>
