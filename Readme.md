@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/RibbonFromXaml/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/RibbonFromXaml/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/RibbonFromXaml/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/RibbonFromXaml/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/RibbonFromXaml/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/RibbonFromXaml/MainWindow.xaml.vb))
 * [RibbonResources1.xaml](./CS/RibbonFromXaml/RibbonResources1.xaml) (VB: [RibbonResources1.xaml](./VB/RibbonFromXaml/RibbonResources1.xaml))
 * [RibbonResources2.xaml](./CS/RibbonFromXaml/RibbonResources2.xaml) (VB: [RibbonResources2.xaml](./VB/RibbonFromXaml/RibbonResources2.xaml))
